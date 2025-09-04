@@ -1,1 +1,139 @@
+/* header */
+header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background-color: #ffffff;
+}
+
+header img {
+  height: 50px;
+}
+nav{
+  align-items: end;
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  gap: 40px;
+}
+nav li a{
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+nav a:hover{
+  transition: 0.5s;
+  color: rgb(248, 103, 6);
+}
+
+button{
+  background-color: transparent;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(248, 103, 6);
+}
+button:hover{
+  background-color: #e56f00;
+  color: white;
+  transition: 0.5s;
+}
+
+
+/* Footer Styles */
+.footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 60px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer .footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-col {
+  flex: 1 1 220px;
+  margin: 20px;
+}
+
+.footer-col h3 {
+  color: #ff8000; /* Orange title */
+  font-size: 16px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #ff8000;
+}
+
+/* Newsletter Form */
+.newsletter-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.newsletter-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #ff8000;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.newsletter-form button:hover {
+  background-color: #e56f00;
+}
+.footer-con{
+  align-items: center;
+  justify-content: center;
+  margin-left: 500px;
+  padding-top: 100px;
+  flex: 1 1 20px;
+}
+.gen-container{
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+  margin-left: 100px;
+
+}
+.gen-container h4{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
 
