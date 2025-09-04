@@ -1,1 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.header-container{
+    display: flex;
+    align-items: center;
+    background-color: rgb(244, 238, 238);
+    margin: 0;
+    padding: 0;
+    position: static;
+}
+
+.logo img{
+    height: 100px;
+    width: 200px;
+}
+
+.logo img:hover{
+    background-color: rgb(102, 94, 94);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+nav{
+    margin:10px 80px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(120, 117, 117);
+    margin-left: 50px;
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: rgb(216, 211, 211);
+}
+
+/* main section */
+
+.main-section{
+    height: 80vh;
+    background: url('/img/main.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(6, 66, 6);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+/* images section */
+
+.container{
+    background-color: rgb(244, 238, 238);
+}
+
+.img-container {
+    margin: 50px;
+    margin-left: 100px;
+    display: flex;
+    gap: 30px;
+}
+
+.img{
+    display: block;
+    border: 1px solid rgb(115, 108, 108);
+}
+
+.img p{
+    background-color: white;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* impact section */
+
+.h1-1{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.impact-section{
+    display: flex;
+    gap: 70px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.impact-section span{
+    font-size: 40px;
+    color: rgb(56, 53, 53);
+}
+
+.impact-text{
+    padding: 0 120px;
+    text-align: center;
+}
+
+.impact-text p{
+    margin: 5px;
+    margin-bottom: 50px;
+}
+
+/* footer section */
+
+.footer-container {
+      align-items: center;
+} 
+
+.icon{
+    align-items: end;
+    margin: 30px 50px;
+    position: absolute;
+    /* margin-top: 200px; */
+    
+}
+
+ .footer-form{
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+} 
+
+.btn-1{
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    transform: none;
+    transition: none;
+}
+
+input{
+    margin-right: 0;
+    padding: 10px ;
+    padding-right: 30px;
+}
