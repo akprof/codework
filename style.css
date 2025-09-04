@@ -1,35 +1,38 @@
 /* header */
 header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 15px 40px;
-      background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #ffffff;
 }
 
 header img {
   height: 50px;
 }
-nav{
+
+nav {
   align-items: end;
   display: flex;
   justify-content: end;
   list-style: none;
   gap: 40px;
 }
-nav li a{
+
+nav li a {
   text-decoration: none;
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-bottom: 20px;
   padding-top: 20px;
 }
-nav a:hover{
+
+nav a:hover {
   transition: 0.5s;
   color: rgb(248, 103, 6);
 }
 
-button{
+button {
   background-color: transparent;
   width: 100px;
   height: 50px;
@@ -37,7 +40,8 @@ button{
   border: none;
   background-color: rgb(248, 103, 6);
 }
-button:hover{
+
+button:hover {
   background-color: #e56f00;
   color: white;
   transition: 0.5s;
@@ -66,7 +70,8 @@ button:hover{
 }
 
 .footer-col h3 {
-  color: #ff8000; /* Orange title */
+  color: #ff8000;
+  /* Orange title */
   font-size: 16px;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -116,24 +121,22 @@ button:hover{
 .newsletter-form button:hover {
   background-color: #e56f00;
 }
-.footer-con{
+
+.footer-con {
   align-items: center;
   justify-content: center;
   margin-left: 500px;
   padding-top: 100px;
   flex: 1 1 20px;
 }
-.gen-container{
+
+.gen-container {
   gap: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 100px;
   margin-left: 100px;
-
-}
-.gen-container h4{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
-
