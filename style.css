@@ -141,6 +141,26 @@ body {
   padding: 40px;
 }
 
+.innovation{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
 /* Gallery */
 .gallery .grid {
   display: grid;
