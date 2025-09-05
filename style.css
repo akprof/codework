@@ -184,7 +184,7 @@ body {
 .cta {
   background: linear-gradient(135deg, #2d6a4f, #52b788);
   color: white;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
   text-align: center;
   padding: 50px;
 }
