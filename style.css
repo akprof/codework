@@ -803,3 +803,10 @@ h4 { font-size: 1.5rem; }
     button[type="submit"]:hover {
       background: #0056b3;
     }
+
+    .social-link svg {
+    width: 40px;   
+    height: 40px;
+    vertical-align: middle; 
+    margin-right: 6px; 
+  }
