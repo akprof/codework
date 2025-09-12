@@ -53,6 +53,10 @@ h4 { font-size: 1.5rem; }
   color: #2d6a4f;
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;  /* vertically center image and text */
+  gap: 8px;             /* optional spacing between image and text */
+  text-decoration: none;  /* optional: remove underline */
 }
 
 .brand-logo span {
